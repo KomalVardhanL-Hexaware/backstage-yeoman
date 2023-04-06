@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: UserService
+  description: NestJsMongoDB
+  tags:
+    - backstagetesting
+    - NestJsMongoDB
+    - NestJs
+    - MongoDB
+  annotations:
+    env : my-test
+spec:
+  type: service
+  lifecycle: test
+  owner: RapidX
